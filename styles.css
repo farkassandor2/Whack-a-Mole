@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFF0D1;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #3B3030;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 200px);
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.hole {
+    background-color: #795757;
+}
+
+img {
+    width: 100%;
+    margin-top: 10px;
+    /*visibility: hidden;*/
+}
+
+footer {
+    font-size: 1.5rem;
+}
+
+.visible {
+    visibility: visible;
+}
